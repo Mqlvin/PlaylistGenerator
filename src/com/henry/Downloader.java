@@ -16,7 +16,7 @@ public class Downloader {
                 if(line == null) {
                     break;
                 }
-                System.out.println(line);
+                PlaylistGenerator.consoleLog.add(line);
             }
         } catch(Exception e) {
             System.out.println("Exception " + e);
